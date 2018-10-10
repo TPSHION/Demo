@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PyramidDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("请输入要打印金字塔的层数：");
+        System.out.print("请输入要打印倒金字塔的层数：");
         int num = scanner.nextInt();
         printPyramid(num);
         scanner.close();
